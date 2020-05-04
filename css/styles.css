@@ -1,0 +1,189 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+li {
+  font-size: 15px;
+  margin: 3px 10px;
+  font-weight: 400;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* ************************* SECTIONS ************************* */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* ************************* HEADINGS ************************* */
+
+.big-heading {
+  font-family: Montserrat;
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  animation: fadein 2s;
+  line-height: 1.5;
+}
+
+.pricing-heading, .card-body-headings {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+
+/* ******************** TITLE ******************** */
+
+#title {
+  text-align: left;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.rotimage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* ******************** FEATURES ******************** */
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features .col-md-12 {
+  margin: 2rem auto;
+}
+
+#features .col-sm-12 {
+  margin: 2rem auto;
+}
+
+.feature-div {
+  padding: 3rem auto;
+}
+
+.feature-logo {
+  color: #ef8172;
+  transition: 0.4s ease;
+}
+
+.feature-logo:hover {
+  color: #ff4c68;
+}
+
+/* ******************** TESTIMONIALS ******************** */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-mainParts {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.paded {
+  padding: 7% 20%;
+}
+
+.sayer {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* ******************** PRESS ******************** */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ******************** PRICING ******************** */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* ******************** CALL TO ACTION ******************** */
+
+
+/* ******************** FOOTER ******************** */
+
+.socials{
+  margin: 3% 1% 4%;
+}
+
+/* ************************* KEY FRAMES ************************* */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* ************************* MEDIA QUERIES ************************* */
+
+@media (max-width: 1048px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotimage {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .download-button {
+    margin: 5% 1% 15%;
+  }
+}
